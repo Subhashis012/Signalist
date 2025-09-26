@@ -3,8 +3,10 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className='flex justify-center items-center h-screen'>
-      <Button>Click me</Button>
+    <div className='flex min-h-screen home-wrapper'>
+      <section className="grid w-full gap-8 home-section">
+        Home
+      </section>
     </div>
   )
 }
